@@ -28,6 +28,6 @@ export class SeedService {
     })
 
     await this.pokemonModel.insertMany( pokemonToInsert );
-    return data.results;
+    return 'Seed Executed';
   }
 }
